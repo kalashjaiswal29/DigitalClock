@@ -1,31 +1,35 @@
 # 🕒 React Digital Clock
 
-A dynamic, real-time digital clock built using **React.js**. This project focuses on mastering functional components and React hooks to manage time-based state updates.
+A dynamic, real-time digital clock built with **React.js** and **Vite**. This project focuses on mastering functional components and React hooks for efficient UI updates.
 
 ---
 
 ## 🚀 Key Features
-* **Live Updates:** Displays time accurately down to the second using `setInterval`.
-* **State Management:** Utilizes React hooks for reactive UI updates.
-* **Modern Design:** Clean, centered layout with a focus on high-readability typography.
-* **Lifecycle Control:** Efficient memory management by clearing intervals on component unmount.
+* **Real-Time Synchronicity:** Updates every second using `setInterval`.
+* **Vite Powered:** Fast development and optimized build process.
+* **Responsive UI:** A clean, centered design that adapts to various screen sizes.
+* **Component-Based Architecture:** Modular code structure for better maintainability.
 
 ---
 
 ## 🛠️ Tech Stack
-* **React.js:** Frontend library for building the user interface.
-* **Hooks Used:**
-    * `useState`: To store and update the current time.
-    * `useEffect`: To initialize the clock and handle side effects.
-* **CSS3:** Custom styling for the clock container and digital font.
+* **React.js:** Frontend library for the user interface.
+* **Vite:** Next-generation frontend tooling for a faster dev experience.
+* **Hooks:**
+    * `useState`: To manage and display the changing time.
+    * `useEffect`: To handle the timer logic and cleanup.
+* **CSS3:** Custom styles for the digital clock face and background.
 
 ---
 
 ## 📂 Project Structure
 ```text
 ├── src/
-│   ├── App.js           # Main logic and hook implementation
-│   ├── App.css          # Styling for the clock interface
-│   └── index.js         # Entry point for the React app
-├── public/              # Static assets and HTML template
+│   ├── Components/      # Reusable UI components
+│   ├── assets/          # Images, fonts, and static files
+│   ├── App.jsx          # Main application component
+│   ├── App.css          # Styling for the main app
+│   ├── main.jsx         # Entry point (Vite specific)
+│   └── index.css        # Global styles
+├── index.html           # Root HTML file
 └── package.json         # Project dependencies
